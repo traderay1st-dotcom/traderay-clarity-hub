@@ -76,13 +76,13 @@ const Contact = () => {
               <h3 className="text-2xl font-bold mb-6">Reach Out</h3>
               <div className="space-y-4">
                 <a 
-                  href="mailto:info@traderay.org"
+                  href="mailto:ayoola@traderay.org"
                   className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-smooth group"
                 >
                   <div className="p-2 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-smooth">
                     <Mail className="h-5 w-5" />
                   </div>
-                  <span>info@traderay.org</span>
+                  <span>ayoola@traderay.org</span>
                 </a>
                 
                 <a 
