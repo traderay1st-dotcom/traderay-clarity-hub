@@ -45,7 +45,7 @@ const Hero = () => {
               className="border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-smooth"
               asChild
             >
-              <a href="https://x.com/TraderAY1st" target="_blank" rel="noopener noreferrer">
+              <a href="https://discord.gg/kRScYvsF" target="_blank" rel="noopener noreferrer">
                 Join the Community
               </a>
             </Button>
