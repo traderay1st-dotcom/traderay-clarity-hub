@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { BarChart3, Target, BookOpen, LineChart, Users } from "lucide-react";
 import servicesBackground from "@/assets/services-bg.jpg";
+import marketAnalysis from "@/assets/market-analysis-example.png";
 
 const services = [
   {
@@ -69,6 +70,15 @@ const Services = () => {
                       </span>
                     )}
                   </div>
+                  {index === 0 && (
+                    <div className="mb-4 rounded-lg overflow-hidden border border-border/30">
+                      <img 
+                        src={marketAnalysis} 
+                        alt="Market Analysis Example" 
+                        className="w-full h-auto opacity-90 hover:opacity-100 transition-smooth"
+                      />
+                    </div>
+                  )}
                   <h3 className="text-xl font-bold mb-3">{service.title}</h3>
                   <p className="text-muted-foreground leading-relaxed flex-grow">
                     {service.description}
