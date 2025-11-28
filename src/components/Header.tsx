@@ -10,7 +10,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection("hero")}>
-            <img src={logo} alt="TRADERAY" className="h-8 md:h-10" />
+            <img src={logo} alt="TRADERAY" className="h-12 md:h-16 w-auto" />
           </div>
           
           <div className="hidden md:flex items-center gap-8">

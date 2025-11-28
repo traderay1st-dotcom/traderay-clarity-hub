@@ -1,4 +1,5 @@
 import { AlertTriangle } from "lucide-react";
+import logo from "@/assets/traderay-logo.png";
 
 const Footer = () => {
   return (
@@ -20,9 +21,7 @@ const Footer = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-center md:text-left">
-              <h3 className="text-2xl font-bold mb-2">
-                TRADE<span className="text-primary">RAY</span>
-              </h3>
+              <img src={logo} alt="TRADERAY" className="h-10 md:h-12 w-auto mx-auto md:mx-0 mb-3" />
               <p className="text-sm text-muted-foreground">
                 Clarity. Discipline. Mastery.
               </p>
