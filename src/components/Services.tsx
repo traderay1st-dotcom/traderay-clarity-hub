@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { BarChart3, Target, BookOpen, LineChart, Users } from "lucide-react";
 import servicesBackground from "@/assets/services-bg.jpg";
 import marketAnalysis from "@/assets/market-analysis-example.png";
+import tradeOutlook from "@/assets/trade-outlook-example.png";
 
 const services = [
   {
@@ -75,6 +76,15 @@ const Services = () => {
                       <img 
                         src={marketAnalysis} 
                         alt="Market Analysis Example" 
+                        className="w-full h-auto opacity-90 hover:opacity-100 transition-smooth"
+                      />
+                    </div>
+                  )}
+                  {index === 1 && (
+                    <div className="mb-4 rounded-lg overflow-hidden border border-border/30">
+                      <img 
+                        src={tradeOutlook} 
+                        alt="Trade Outlook Example" 
                         className="w-full h-auto opacity-90 hover:opacity-100 transition-smooth"
                       />
                     </div>
