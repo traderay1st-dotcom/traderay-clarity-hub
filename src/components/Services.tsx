@@ -6,7 +6,7 @@ const services = [
   {
     icon: BarChart3,
     title: "Market Intelligence & Insights",
-    description: "Daily and weekly breakdowns of Bitcoin, altcoins, dominance, liquidity, and major market structure shifts."
+    description: "Daily and weekly breakdowns of Bitcoin, altcoins, liquidity, and major market structure shifts."
   },
   {
     icon: Target,
@@ -21,7 +21,7 @@ const services = [
   {
     icon: LineChart,
     title: "Long-Term Portfolio Guidance",
-    description: "Macro insights, cycle forecasts, and high-conviction market signals for sustainable compounding."
+    description: "Macro insights, cycle forecasts, and high-conviction market signals for sustainable growth."
   },
   {
     icon: Users,
